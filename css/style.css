@@ -79,6 +79,11 @@ header nav ul li a:hover
 {
     background:#ffff;
     color: rgb(119, 0, 255);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 @media (max-width:700px){
@@ -266,3 +271,4 @@ width: 80%;
 .form-row button:active {
     background-color: #407fc7;
 }
+
