@@ -103,14 +103,22 @@ section{
 
 .itemcarrusel{
     border: 1px solid black;
+    height: 200px;
+    position: relative;
 }
 
 .carrusel{
 background-color: crimson;
+height: 100%;
 }
 
 .flechascarrusel{
 background-color: mediumspringgreen;
+position: absolute;
+top: 0;
+height: 100%;
+width: 100px;
+display: flex;
 }
 
 section img{
@@ -139,9 +147,9 @@ float: left;
 footer{
     grid-area: footer;
     padding: 1em 0;
-    margin-top: auto;
     background-color: rgb(119, 0, 255);
     text-align: center;
+    margin-top: auto;
 }
 
 footer ul{
